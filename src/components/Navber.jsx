@@ -153,6 +153,18 @@ const Navber=({ darkMode, toggleDarkMode })=>{
                             darkMode ? 'border-gray-700'
                             : 'border-gray-200'
                         }`}>
+                            <div className="px-4 py-3 space-y-2">
+                                {navIrtems.map((item) => (
+                                    <a key={item.name}
+                                       href={item.link}
+                                       onClick={()=> handleNavClick(item.name)}
+
+                                       className="block"
+                                    >
+                                        {item.name}
+                                    </a>
+                                ))}
+                            </div>
 
 
                     </motion.div>
