@@ -10,9 +10,9 @@ const App=()=>{
       duration:1000,
       once:false,
       offset:100
-    })
+    });
     document.documentElement.classList.add('dark');
-  },[]);
+  }, []);
   const toggleDarkMode= ()=>{
     const newMode = !darkMode;
     setDarkMode(newMode);
@@ -28,3 +28,4 @@ const App=()=>{
     </div>
   )
 }
+export default App;

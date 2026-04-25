@@ -158,15 +158,34 @@ const Navber=({ darkMode, toggleDarkMode })=>{
                                     <a key={item.name}
                                        href={item.link}
                                        onClick={()=> handleNavClick(item.name)}
-
-                                       className="block"
-                                    >
-                                        {item.name}
+                                       className="block">
+                                        <motion.div
+                                        whileHover={{x: 5}}
+                                            className={`py-3 px-4 rounded-lg text-center
+                                            ${
+                                                activeSection === item.name.toLowerCase()
+                                                ? darkMode ? 'bg-gray-800' : 'bg-orange-50'
+                                                :''
+                                            }`}>
+                                                <span 
+                                                className={`font-medium ${
+                                                    activeSection === item.name.toLowerCase()
+                                                    ? colors.textActive
+                                                    : colors.textSecondary
+                                                }`}>
+                                                    {item.name}
+                                                </span>
+                                        </motion.div>
                                     </a>
                                 ))}
+                                <motion.a
+                                href="#contact"
+                                onClick={() => setIsMenuOpen(false)}
+                                whileTop={{scale:0.95}}
+                                className={`block py-3 px-4 text-center font-semibold rounded-lg bg-linear-to-r ${colors.button} text-white shadow-md `}>
+                                    Hire Me
+                                </motion.a>
                             </div>
-
-
                     </motion.div>
                  )}
             </Motion.nav>
