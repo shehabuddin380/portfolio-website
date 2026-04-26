@@ -9,11 +9,19 @@ const App=()=>{
   useEffect(()=>{
     AOS.init({
       duration:1000,
-      once:true,
+      once:false,
       offset:100
     });
     document.documentElement.classList.add('dark');
   }, []);
+  useEffect(()=>{
+    AOS.init({
+      duration:1000,
+      once:false,
+      offset:100
+    });
+  },[]);
+
   const toggleDarkMode= ()=>{
     const newMode = !darkMode;
     setDarkMode(newMode);
