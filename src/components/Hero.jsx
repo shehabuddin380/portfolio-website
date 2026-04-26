@@ -53,7 +53,9 @@ const Hero = ({darkMode}) =>{
                          data-aos-delay='500'>
                             Hi, I'm Shehab
                         </h1>
-                        <p>
+                        <p className={`mb-6 sm:mb-8 leading-relaxed max-w-md sm:max-w-lg ${themes.textSecondary}`}
+                         data-aos='fade-up'
+                         data-aos-delay='600'>
                             I am a Backend Developer with a strong interest in designing and developing robust server-side applications. I have experience working with APIs, databases, and backend architecture, and I am continuously improving my skills to build scalable and efficient systems.
                         </p>
                     </div>
