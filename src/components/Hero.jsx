@@ -58,6 +58,17 @@ const Hero = ({darkMode}) =>{
                          data-aos-delay='600'>
                             I am a Backend Developer with a strong interest in designing and developing robust server-side applications. I have experience working with APIs, databases, and backend architecture, and I am continuously improving my skills to build scalable and efficient systems.
                         </p>
+                        {/*Buttons*/}
+                        <div className='w-full pt-4 sm:pt-6'>
+                            <div className='flex flex-col sm:flex-row justify-center lg:justify-start gap-3 sm:gap-4'
+                            data-aos='fade-up'
+                            data-aos-delay='700'>
+                                <a href={CV} download className=''>
+
+                                </a>
+
+                            </div>
+                        </div>
                     </div>
                 </div>
         </div>
