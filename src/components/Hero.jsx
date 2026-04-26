@@ -54,7 +54,7 @@ const Hero = ({darkMode}) =>{
                             Hi, I'm Shehab
                         </h1>
                         <p>
-                            
+                            I am a Backend Developer with a strong interest in designing and developing robust server-side applications. I have experience working with APIs, databases, and backend architecture, and I am continuously improving my skills to build scalable and efficient systems.
                         </p>
                     </div>
                 </div>
