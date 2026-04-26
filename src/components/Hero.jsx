@@ -53,6 +53,9 @@ const Hero = ({darkMode}) =>{
                          data-aos-delay='500'>
                             Hi, I'm Shehab
                         </h1>
+                        <p>
+                            
+                        </p>
                     </div>
                 </div>
         </div>
