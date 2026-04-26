@@ -1,6 +1,7 @@
 import instagram from '../assets/instagram.png';
 import linkedin from '../assets/linkedin.png';
 import github from '../assets/github.png';
+import CV from '../assets/CV.pdf'
 import { a } from 'framer-motion/client';
 
 const Hero = ({darkMode}) =>{
