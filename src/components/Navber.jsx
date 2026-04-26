@@ -1,6 +1,7 @@
 import { motion, scale } from "framer-motion";
-import { Moon, Sun } from "lucide-react";
+import { Moon, Sun, Menu } from "lucide-react";
 import { useState } from "react"
+
 
 const Navber=({ darkMode, toggleDarkMode })=>{
     const [activeSection,setActiveSection]=useState('home');
@@ -39,14 +40,14 @@ const Navber=({ darkMode, toggleDarkMode })=>{
     };
     return(
         <div className="flex justify-center w-full fixed z-50 mt-4" >
-            <Motion.nav
+            <motion.nav
             initial={{y:-100}}
             animate={{y:0}}
             transition={{duration:0.5}}
             className={`flex items-center justify-center ${colors.navBg} backdrop-blur-lg rounded-2xl px-4 lg:px-8 py-2 shadow-lg`}>
-                <dib className="flex items-center justify-between w-full space-x-6 lg:space-x-8">
+                <div className="flex items-center justify-between w-full space-x-6 lg:space-x-8">
                     {/* logo */}
-                    <Motion.a 
+                    <motion.a 
                     href="/" 
                     whileHover={{scale:1.05}}
                     className="flex items-center space-x-2">
@@ -55,7 +56,7 @@ const Navber=({ darkMode, toggleDarkMode })=>{
                             Portfolio <span className="text-orange-500">.</span>
 
                         </span>
-                    </Motion.a>
+                    </motion.a>
                     {/* Navigation Items */}
                     <div className="hidden lg:flex items-center space-x-6">
                         {navIrtems.map((item) => (
@@ -138,7 +139,7 @@ const Navber=({ darkMode, toggleDarkMode })=>{
                                 )}
                             </motion.button>
                         </div>
-                 </dib>
+                 </div>
                  {isMenuOpen &&(
                     <motion.div
                     initial={{opacity:0,height:0}}
@@ -188,8 +189,9 @@ const Navber=({ darkMode, toggleDarkMode })=>{
                             </div>
                     </motion.div>
                  )}
-            </Motion.nav>
+            </motion.nav>
         </div>
         
     )
 }
+export default Navber;

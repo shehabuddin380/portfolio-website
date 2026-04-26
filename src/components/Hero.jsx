@@ -1,6 +1,7 @@
 import instagram from '../assets/instagram.png';
 import linkedin from '../assets/linkedin.png';
 import github from '../assets/github.png';
+import { a } from 'framer-motion/client';
 
 const Hero = ({darkMode}) =>{
     const socialIcons = [
@@ -23,7 +24,38 @@ const Hero = ({darkMode}) =>{
     };
     const themes = darkMode ? darkThems : lightThems;
     return(
-        <div >Hero</div>
+        <div className='relative overflow-hidden min-h-screen flex flex-col'>
+            <select 
+             id='home'
+             data-aos='fade-up'
+             data-aos-delay='250'
+             className='body-font z-10'>
+                
+            </select>
+            <div className='container mx-auto flex px4 sm:px-8 lg:px14 py-12 lg:py-32 flex-col lg:flex-rew items-center justify-between lg:mt-0 mt-14'>
+                    <div className='lg:w-1/2 w-full flex flex-col items-center lg:items-start text-center lg:text-left mb-16 lg:mb-0'>
+                        <div className='flex justify-center lg:justify-start gap-4 sm:gap-6 sm:mb-7 w-full'>
+                        {socialIcons.map((social, index) => (
+                            <a 
+                            key={index}
+                            href="#" 
+                            data-aos-delay={`${400 + index * 100}`}
+                            className='transform hover:scale-110 transition-transform duration-300'
+                            >
+                                <img src={social.icon} 
+                                alt={social.name}
+                                className={`w-8 h-8 sm:w-10 sm:h-10 object-contain ${darkMode ? '' : 'filter brightness-75'}`} />
+                            </a>
+                        ))}
+                        </div>
+                        <h1 children={`title-font text-3xl sm:text-4xl sm:text-4xl lg:text-5xl mb-4 font-bold ${themes.textPrimary}`}
+                         data-aos='fade-up'
+                         data-aos-delay='500'>
+                            Hi, I'm Shehab
+                        </h1>
+                    </div>
+                </div>
+        </div>
     )
 }
 export default Hero;
