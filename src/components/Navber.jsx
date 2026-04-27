@@ -53,7 +53,7 @@ const Navber=({ darkMode, toggleDarkMode })=>{
                     className="flex items-center space-x-2">
                         <span 
                         className={`text-xl font-bold ${colors.textPrimary}`}>
-                            Portfolio <span className="text-orange-500">.</span>
+                            Shehab <span className="text-orange-500">.</span>
 
                         </span>
                     </motion.a>
@@ -103,8 +103,6 @@ const Navber=({ darkMode, toggleDarkMode })=>{
                                     <Moon className="w-5 h-5 text-gray-700"/>
                                 )}
                                 </motion.button>
-
-
                                 {/* Button */}
 
                                 <motion.a 
