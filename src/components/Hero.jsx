@@ -33,6 +33,7 @@ const Hero = ({darkMode}) =>{
              className='body-font z-10'>
                 
             </select>
+            <section>
             <div className='container mx-auto flex px4 sm:px-8 lg:px14 py-12 lg:py-32 flex-col lg:flex-rew items-center justify-between lg:mt-0 mt-14'>
                     <div className='lg:w-1/2 w-full flex flex-col items-center lg:items-start text-center lg:text-left mb-16 lg:mb-0'>
                         <div className='flex justify-center lg:justify-start gap-4 sm:gap-6 sm:mb-7 w-full'>
@@ -76,11 +77,20 @@ const Hero = ({darkMode}) =>{
                                         Contact Me
                                     </button>
                                 </a>
-
                             </div>
                         </div>
                     </div>
+                    {/* Image*/}
+                    <div className='lg:w-1/2 w-full max-w-md lg:max-w-lg mt-8 lg:mt-0 flex justify-center'
+                     data-aos='fade-left'
+                     data-aos-delay='400'>
+                        <div>
+                            <div >
+
+                            </div>
+                        </div>
                 </div>
+            </section>    
         </div>
     )
 }
