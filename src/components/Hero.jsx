@@ -84,9 +84,9 @@ const Hero = ({darkMode}) =>{
                     <div className='lg:w-1/2 w-full max-w-md lg:max-w-lg mt-8 lg:mt-0 flex justify-center'
                      data-aos='fade-left'
                      data-aos-delay='400'>
-                        <div>
-                            <div className='relative w-4/5 sm:w-3/4 lg:w-full'>
-
+                        <div className='relative w-4/5 sm:w-3/4 lg:w-full'>
+                            <div >
+                            
                             </div>
                         </div>
                 </div>
