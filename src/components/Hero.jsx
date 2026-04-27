@@ -85,8 +85,11 @@ const Hero = ({darkMode}) =>{
                      data-aos='fade-left'
                      data-aos-delay='400'>
                         <div className='relative w-4/5 sm:w-3/4 lg:w-full'>
-                            <div >
-                            
+                            <div className='relative overflow-hidden'>
+                                <img 
+                                src="" 
+                                alt="" />
+
                             </div>
                         </div>
                 </div>
