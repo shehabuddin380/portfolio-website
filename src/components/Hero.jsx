@@ -3,7 +3,7 @@ import linkedin from '../assets/linkedin.png'
 import github from '../assets/github.png'
 import CV from '../assets/CV.pdf'
 import { a } from 'framer-motion/client'
-import CV-Photo from '../assets/CV-Photo.png'
+import CVPhoto from '../assets/CVPhoto.png'
 import hi from '../assets/hi.png'
 
 
@@ -90,7 +90,7 @@ const Hero = ({darkMode}) =>{
                         <div className='relative w-4/5 sm:w-3/4 lg:w-full'>
                             <div className='relative overflow-hidden'>
                                 <img 
-                                src="CV-Photo" 
+                                src="CVPhoto" 
                                 alt="Hero Image" 
                                 className=''w-full h-auto object-cover transfrom hover:scale-105 transition-transfrom duration-500 />
                             </div>
