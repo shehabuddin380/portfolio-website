@@ -6,6 +6,7 @@ import Hero from "./components/Hero"
 
 const App=()=>{
   const [darkMode,setDarkMode]=useState(true)
+  
   useEffect(()=>{
     AOS.init({
       duration:1000,
