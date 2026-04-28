@@ -15,30 +15,28 @@ const Hero = ({darkMode}) =>{
         { icon: linkedin, alt: 'LinkedIn' },
         { icon: github, alt: 'GitHub' },
     ];
-    const darkThems={
+    const darkTheme={
         textPrimary:'text-white',
         textSecondary:'text-gray-300',
         buttonSecondary:`text-white border-2 border-orange-500 hover:bg-orenge-600`,
         decorativeCircle:'bg-orange-500 opacity-10',
     } ;
 
-    const lightThems={
+    const lightTheme={
         textPrimary:'text-gray-900',
         textSecondary:'text-gray-700',
         buttonSecondary:`text-gray-800 border-2 border-orange-500 hover:bg-orenge-500 hover:text-white`,
         decorativeCircle:'bg-orange-400 opacity-20',
     };
-    const themes = darkMode ? darkThems : lightThems;
+    const themes = darkMode ? darkTheme : lightTheme;
     return(
         <div className='relative overflow-hidden min-h-screen flex flex-col'>
-            <select 
+            <section   
              id='home'
              data-aos='fade-up'
-             data-aos-delay='250'
+             data-aos-delat='250'
              className='body-font z-10'>
-                
-            </select>
-            <section>
+            
             <div className='container mx-auto flex px4 sm:px-8 lg:px14 py-12 lg:py-32 flex-col lg:flex-rew items-center justify-between lg:mt-0 mt-14'>
                     <div className='lg:w-1/2 w-full flex flex-col items-center lg:items-start text-center lg:text-left mb-16 lg:mb-0'>
                         <div className='flex justify-center lg:justify-start gap-4 sm:gap-6 sm:mb-7 w-full'>
@@ -77,7 +75,7 @@ const Hero = ({darkMode}) =>{
                                     </button>
                                 </a>
                                 <a href="#contact" className='w-full sm:w-auto'>
-                                    <button className={`w-full sm:w-auto inline-flex items-center ${themes.buttonSecondary} justify-center text-white border-0 py-3 px-6 sm:px-8 hover:shadow-[0_0_40px_rgb(255,165,0,0.7)] rounded-full text-base sm:text-lg font-semibold transition-all duration-300 transform `}>
+                                    <button className={`w-full sm:w-auto inline-flex items-center ${themes.buttonSecondary} justify-center border-0 py-3 px-6 sm:px-8 hover:shadow-[0_0_40px_rgb(255,165,0,0.7)] rounded-full text-base sm:text-lg font-semibold transition-all duration-300 transform `}>
                                         <Mail className='w-4 h-4 sm:h-5 sm:w-5 mr-2'/>
                                         Contact Me
                                     </button>
@@ -91,21 +89,18 @@ const Hero = ({darkMode}) =>{
                         <div className='relative w-4/5 sm:w-3/4 lg:w-full'>
                             <div className='relative overflow-hidden'>
                                 <img 
-                                src="CVPhoto" 
+                                src={CVPhoto} 
                                 alt="Hero Image" 
                                 className=''w-full h-auto object-cover transfrom hover:scale-105 transition-transfrom duration-500 />
                             </div>
                             <img 
                             src={hi}
                             alt="Hi icon"
-                            className='absolute top-2 sm:top-4 left-12 sm:left-20 w-14 h-14 sm:w-20 sm:h-20 object- contain animate-bounce opacity-90 z-10 '
-                            />
+                            className='absolute top-4 sm:top-4 left-6 sm:left-20 w-14 h-14 sm:w-20 sm:h-20 object-contain animate-bounce opacity-90 z-10 '/>
                         </div>
                     </div>
                 </div>
-                </div>
-
-                    
+                </div> 
             </section>    
         </div>
         
