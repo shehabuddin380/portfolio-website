@@ -1,9 +1,12 @@
-import instagram from '../assets/instagram.png';
-import linkedin from '../assets/linkedin.png';
-import github from '../assets/github.png';
+import instagram from '../assets/instagram.png'
+import linkedin from '../assets/linkedin.png'
+import github from '../assets/github.png'
 import CV from '../assets/CV.pdf'
-import { a } from 'framer-motion/client';
+import { a } from 'framer-motion/client'
 import CV-Photo from '../assets/CV-Photo.png'
+import hi from '../assets/hi.png'
+
+
 
 const Hero = ({darkMode}) =>{
     const socialIcons = [
