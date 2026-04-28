@@ -94,7 +94,11 @@ const Hero = ({darkMode}) =>{
                                 alt="Hero Image" 
                                 className=''w-full h-auto object-cover transfrom hover:scale-105 transition-transfrom duration-500 />
                             </div>
-                            
+                            <img 
+                            src={hi}
+                            alt="Hi icon"
+                            className='absolute top-2 sm:top-4 left-12 sm:left-20 w-14 h-14 sm:w-20 sm:h-20 object- contain animate-bounce opacity-90 z-10 '
+                            />
                         </div>
                     </div>
                 </div>
