@@ -3,6 +3,7 @@ import linkedin from '../assets/linkedin.png';
 import github from '../assets/github.png';
 import CV from '../assets/CV.pdf'
 import { a } from 'framer-motion/client';
+import CV-Photo from '../assets/CV-Photo.png'
 
 const Hero = ({darkMode}) =>{
     const socialIcons = [
@@ -79,22 +80,27 @@ const Hero = ({darkMode}) =>{
                                 </a>
                             </div>
                         </div>
-                    </div>
-                    {/* Image*/}
+                        {/* Image*/}
                     <div className='lg:w-1/2 w-full max-w-md lg:max-w-lg mt-8 lg:mt-0 flex justify-center'
                      data-aos='fade-left'
                      data-aos-delay='400'>
                         <div className='relative w-4/5 sm:w-3/4 lg:w-full'>
                             <div className='relative overflow-hidden'>
                                 <img 
-                                src="" 
-                                alt="" />
+                                src="CV-Photo" 
+                                alt="Hero Image" 
+                                />
 
                             </div>
                         </div>
+                    </div>
                 </div>
+                </div>
+
+                    
             </section>    
         </div>
+        
     )
 }
 export default Hero;
