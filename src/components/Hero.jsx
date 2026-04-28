@@ -2,9 +2,10 @@ import instagram from '../assets/instagram.png'
 import linkedin from '../assets/linkedin.png'
 import github from '../assets/github.png'
 import CV from '../assets/CV.pdf'
-import { a } from 'framer-motion/client'
 import CVPhoto from '../assets/CVPhoto.png'
 import hi from '../assets/hi.png'
+import { a } from 'framer-motion/client'
+import { DownloadIcon, Mail } from "lucide-react";
 
 
 
