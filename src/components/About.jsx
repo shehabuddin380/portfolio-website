@@ -1,4 +1,4 @@
-
+import CVPhoto from '../assets/CVPhoto.png'
 
 const About =(darkMode)=>{
     return (
@@ -22,7 +22,7 @@ const About =(darkMode)=>{
                     </div>
                 </figure>
                 <article>
-                    
+
                 </article>
 
             </div>
@@ -31,3 +31,4 @@ const About =(darkMode)=>{
     )
 
 }
+export default About;
