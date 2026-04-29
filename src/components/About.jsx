@@ -15,10 +15,15 @@ const About =(darkMode)=>{
                         data-aos="zoom-in"
                         data-aos-delay='600'>
                         </div>
-
+                        <img src={CVPhoto} alt="Shehab" 
+                        className="absolute inset-0  w-full h-full object-cover z-10 transition-all duration-300 " 
+                        data-aos="zoom-in"
+                        data-aos-delay="400"/>
                     </div>
-
                 </figure>
+                <article>
+                    
+                </article>
 
             </div>
 
