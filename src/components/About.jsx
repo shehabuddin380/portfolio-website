@@ -44,6 +44,15 @@ const About =(darkMode)=>{
                         My goal is to become a skilled full-stack developer and work on impactful projects that make a difference. I am committed to growing as a developer and building high-quality digital solutions in the future.
                         I’m currently open to learning opportunities and collaborations.
                     </p>
+                    <div className='flex flex-wrap justify-center lg:justify-start gap-4 sm:gap-6 lg:gap-8 mb-6 sm:mb-8'>
+                        <div className='text-center'
+                        data-aos="zoom-up"
+                        data-aos-delay="600">
+                            <div className='text-2xl sm:text-3xl lg:text-4xl font-bold text-orange-400'>5+</div>
+                            <div className={`text-xl sm:text-sm lg:text-base ${darkMode ? 'text-gray-300' : 'text-gray-700'}`}>Education</div>
+                        </div>
+
+                    </div>
                 </article>
             </div>
 
