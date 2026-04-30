@@ -21,7 +21,16 @@ const About =(darkMode)=>{
                         data-aos-delay="400"/>
                     </div>
                 </figure>
-                <article>
+                <article
+                data-aos="fade-up"
+                data-aos-delay="400"
+                
+                className='text-center lg:text-left relattive order-1 lg:order-2'>
+                    <header>
+                        <h1>
+                            About Me
+                        </h1>
+                    </header>
 
                 </article>
 
