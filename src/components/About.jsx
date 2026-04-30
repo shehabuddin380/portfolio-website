@@ -33,16 +33,18 @@ const About =(darkMode)=>{
                             About Me
                         </h1>
                     </header>
-                    <p>
-                        Hi, I’m Md. Shehab Uddin, a student and passionate developer with a strong interest in backend development using Django.
-                        I have experience with programming languages like C, C++, Python, and JavaScript, along with frontend technologies such as HTML, CSS, and Tailwind CSS.
-                        I also have experience in designing user interfaces using Figma, which helps me build clean and user-friendly applications. 
-                        I enjoy learning new technologies and improving my skills every day. Coding is not just my work, it’s something I truly enjoy.
-                        My goal is to become a full-stack developer and create impactful digital products in the future.
+                    <p className={`text-sm sm:text-base lg:text-lg xl:text-xl mb-6 sm:mb-8 leading-relaxed bg-linear-to-r from-orange-900/10 to-orange-900/5 p-4 sm:p-6 rounded-xl sm:rounded-2xl backdrop-blur-sm ${darkMode ? 'text-gray-300' : 'text-gray-700'}`}
+                    data-aos="fade-up"
+                    data-aos-delay="500">
+                        Hi, I’m Md. Shehab Uddin, a dedicated student and passionate web developer with a strong interest in building modern and scalable web applications. I primarily focus on backend development using Django, where I enjoy working with logic, databases, and building efficient systems.
+                        Alongside backend development, I have solid knowledge of frontend technologies and enjoy creating responsive and user-friendly interfaces. I work with React to build dynamic web applications and use HTML, CSS, and Tailwind CSS to design clean and modern layouts.
+                        I also have experience in UI/UX design using Figma, which helps me understand how to create visually appealing and user-centered designs. This combination of development and design allows me to build complete and well-structured projects.
+                        I have experience with multiple programming languages including C, C++, Python, and JavaScript, which strengthens my problem-solving ability and understanding of different programming concepts. I am always curious to learn new technologies and continuously improve my skills.
+                        Coding is not just something I study — it’s something I genuinely enjoy doing. I like solving problems, exploring new ideas, and turning them into real-world applications.
+                        My goal is to become a skilled full-stack developer and work on impactful projects that make a difference. I am committed to growing as a developer and building high-quality digital solutions in the future.
+                        I’m currently open to learning opportunities and collaborations.
                     </p>
-
                 </article>
-
             </div>
 
         </section>

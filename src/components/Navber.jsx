@@ -1,6 +1,7 @@
 import { motion, scale } from "framer-motion";
 import { Moon, Sun, Menu } from "lucide-react";
 import { useState } from "react"
+import { X } from "lucide-react";
 
 
 const Navber=({ darkMode, toggleDarkMode })=>{
@@ -91,7 +92,7 @@ const Navber=({ darkMode, toggleDarkMode })=>{
                             whileHover={{scale:1.1}}
                             whileTap={{scale:0.9}}
                             onClick={toggleDarkMode}
-                            className={`p-2 rounded-full ${darkMode ? 'bg-gray-700':bg-gray-200} 
+                            className={`p-2 rounded-full ${darkMode ? 'bg-gray-700': 'bg-gray-200'} 
                             transition-colors`}
                             aria-label={darkMode 
                             ? 'Switch to light mode '
