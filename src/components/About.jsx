@@ -27,10 +27,19 @@ const About =(darkMode)=>{
                 
                 className='text-center lg:text-left relattive order-1 lg:order-2'>
                     <header>
-                        <h1>
+                        <h1 className='text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-bold mb-4 sm:mb-6 text-transparent bg-linear-to-r from-orange-400 to-orange-600 bg-clip-text'
+                        data-aos="fade-up"
+                        data-aos-delay="400">
                             About Me
                         </h1>
                     </header>
+                    <p>
+                        Hi, I’m Md. Shehab Uddin, a student and passionate developer with a strong interest in backend development using Django.
+                        I have experience with programming languages like C, C++, Python, and JavaScript, along with frontend technologies such as HTML, CSS, and Tailwind CSS.
+                        I also have experience in designing user interfaces using Figma, which helps me build clean and user-friendly applications. 
+                        I enjoy learning new technologies and improving my skills every day. Coding is not just my work, it’s something I truly enjoy.
+                        My goal is to become a full-stack developer and create impactful digital products in the future.
+                    </p>
 
                 </article>
 
