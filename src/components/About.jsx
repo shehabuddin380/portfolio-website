@@ -51,7 +51,14 @@ const About =(darkMode)=>{
                             <div className='text-2xl sm:text-3xl lg:text-4xl font-bold text-orange-400'>5+</div>
                             <div className={`text-xl sm:text-sm lg:text-base ${darkMode ? 'text-gray-300' : 'text-gray-700'}`}>Education</div>
                         </div>
-
+                    </div>
+                    <div className='flex flex-wrap justify-center lg:justify-start gap-4 sm:gap-6 lg:gap-8 mb-6 sm:mb-8'>
+                        <div className='text-center'
+                        data-aos="zoom-up"
+                        data-aos-delay="600">
+                            <div className='text-2xl sm:text-3xl lg:text-4xl font-bold text-orange-400'>10+</div>
+                            <div className={`text-xl sm:text-sm lg:text-base ${darkMode ? 'text-gray-300' : 'text-gray-700'}`}>Years Expreience</div>
+                        </div>
                     </div>
                 </article>
             </div>
