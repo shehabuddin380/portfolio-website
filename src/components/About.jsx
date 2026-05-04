@@ -2,9 +2,7 @@ import CVPhoto from '../assets/CVPhoto.png'
 
 const About =({darkMode})=>{
     return (
-        <section id="about" className={`min-h-screen overflow-hidden flex items-center justify-center px-4 sm:px-6${
-            darkMode ? 'bg-gray-900' : 'bg-gray-50'
-        }`}>
+        <section id="about" className={`min-h-screen overflow-hidden flex items-center justify-center px-4 sm:px-6`}>
             <div className="max-w-6xl w-full grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-12 items-center">
                 <figure
                 data-aos="fade-up"
