@@ -35,7 +35,7 @@ const Navber=({ darkMode, toggleDarkMode })=>{
     };
 
     const colors=darkMode?darkColors:lightColor;
-    const handleNavClick=(section)=>{
+    const handleNavClick = (itemName) => {
         setActiveSection(itemName.toLowerCase());
         setIsMenuOpen(false);
     };
