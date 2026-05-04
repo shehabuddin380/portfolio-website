@@ -1,6 +1,6 @@
 import CVPhoto from '../assets/CVPhoto.png'
 
-const About =(darkMode)=>{
+const About =({darkMode})=>{
     return (
         <section id="about" className={`min-h-screen overflow-hidden flex items-center justify-center px-4 sm:px-6${
             darkMode ? 'bg-gray-900' : 'bg-gray-50'
@@ -67,11 +67,15 @@ const About =(darkMode)=>{
                             <div className={`text-xl sm:text-sm lg:text-base ${darkMode ? 'text-gray-300' : 'text-gray-700'}`}>Projects Completed</div>
                         </div>
                     </div>
+                    <button className={`w-full sm:w-auto border-2 border-orange-500 inline-flex items-center justify-center py-2 px-4 sm:px-6 hover:shadow-[0_0_40px_rgb(255,165,0,0.7)] rounded-full text-base sm:text-lg font-semibold transition-all duration-300 transform
+                        ${darkMode ? 'text-white bg-orange-500/10' : 'text-gray-800 bg-white/90'}`}
+                        data-aos="fade-up"
+                        data-aos-delay="800">
+                        Learn More 
+                    </button>
                 </article>
             </div>
-
         </section>
     )
-
 }
 export default About;
