@@ -107,20 +107,32 @@ const Skills=({darkMode})=>{
                                                 </span>
                                             </div>
                                             <div
-                                            >
-
+                                            className='w-full rounded-full h-3 overflow-hidden'
+                                            style={{
+                                                backgroundColor: darkMode ? '#374151' : '#e5e7eb'
+                                            }}>
+                                                <div
+                                                className={`h-full rounded-full bg-linear-to-r ${skill.color} transition-all duration-1000 ease-out`}
+                                                style={{
+                                                    width: `${skill.level}%`
+                                                }}>
+                                                </div>
                                             </div>
-
+                                            <div 
+                                            className={`mt-6 pt-4 border-t ${darkMode ? 'border-gray-700' : 'border-gray-300'}`}>
+                                                <div className='h-1 w-10 rounded-full opacity-70 group-hover:w-full transition-all duration-500 w-1/3'
+                                                style={{
+                                                    background: 'linear-gradient(to right, #f97316, #f59e0b)'
+                                                }}>
+                                                </div>
+                                            </div>
                                         </div>
-                                    
                                     </div>
-
                                 ))}
-
                             </div>
                 </div>
             </div>  
         </section>
-    )   
-}
+    );   
+};
 export default Skills
