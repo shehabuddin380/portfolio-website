@@ -72,10 +72,22 @@ const Skills=({darkMode})=>{
                                                         background : darkMode 
                                                         ? 'linear-gradient(to bottom right, #374151, #1f2937)' 
                                                         : 'linear-gradient(to bottom right, #f3f4f6, #e5e7eb)',
-                                                            }}>
-                                                    
-
+                                                            }}
+                                                            className='w-16 h-16 rounded-xl p-3 flex items-center justify-center group-hover:scale-110 transition-transform duration-300'>
+                                                            <img 
+                                                            src={skill.icon} 
+                                                            alt={skill.name}
+                                                            className='w-full h-full object-contain  ' />
                                                 </div>
+                                                <h3
+                                                className='text-xl font-bold ml-4'
+                                                style={{
+                                                    color : darkMode ? 'white' : '#1f2937'
+                                                }}>
+                                                    {skill.name}
+                                                </h3>
+                                            </div>
+                                            <div className=''>
 
                                             </div>
 
