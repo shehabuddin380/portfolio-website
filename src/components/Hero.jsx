@@ -19,7 +19,7 @@ const Hero = ({darkMode}) =>{
         textSecondary:'text-gray-300',
         buttonSecondary:`text-white border-2 border-orange-500 hover:bg-orenge-600`,
         decorativeCircle:'bg-orange-500 opacity-10',
-    } ;
+    };
 
     const lightTheme={
         textPrimary:'text-gray-900',
@@ -37,7 +37,7 @@ const Hero = ({darkMode}) =>{
              data-aos-delat='250'
              className='body-font z-10'>
             
-            <div className='container mx-auto flex px4 sm:px-8 lg:px-14 py-12 lg:py-14 flex-col lg:flex-rew items-center justify-between lg:mt-14 mt-14'>
+            <div className='container mx-auto flex px-4 sm:px-8 lg:px-14 py-12 lg:py-14 flex-col lg:flex-row items-center justify-between lg:mt-14 mt-14'>
                     <div className='lg:w-1/2 w-full flex flex-col items-center lg:items-start text-center lg:text-left mb-12 lg:mb-0'>
                         <div className='flex justify-center lg:justify-start gap-4 sm:gap-6 mb-6 sm:mb-7 w-full'>
                         {socialIcons.map((social, index) => (
