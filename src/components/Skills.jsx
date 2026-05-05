@@ -49,7 +49,29 @@ const Skills=({darkMode})=>{
                                 I have experience working with multiple programming languages and modern web technologies, specializing in building efficient, responsive, and scalable web applications. I am passionate about learning new tools and continuously improving my skills to create user-friendly and high-quality solutions.
                             </p>
                     </div>
-                            <div className='flex flex-wrap -m-4'>
+                            <div className='flex flex-wrap -m-4'
+                            data-aos='fade-up'
+                            data-aos-delay='200'>
+                                {skills.map((skill, index) => ( 
+                                    <div 
+                                    key={index} 
+                                    className='p-4 lg:w-1/4 md:w-1/2 w-full'
+                                    data-aos='fade-up'
+                                    data-aos-delay={`${300 + index * 100}`}>
+                                        <div 
+                                        style={{
+                                            background : darkMode 
+                                            ? 'linear-gradient(to bottom right, #1f2937, #111827)' 
+                                            : 'linear-gradient(to bottom right, #ffffff, #f3f4f6)',
+                                            borderColor: darkMode ? '#374151' : '#e5e7eb'
+                                        }}
+                                        className={`h-full flex items-center border-gray-200 border p-4 rounded-lg bg-linear-to-r ${skill.color} bg-clip-text text-transparent`}>
+
+                                        </div>
+                                    
+                                    </div>
+
+                                ))}
 
                             </div>
                 </div>
