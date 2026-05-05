@@ -22,7 +22,33 @@ const Skills=({darkMode})=>{
         {name:'Tailwind CSS', icon: tailwindcss, level:80, color:'from-red-500 to-orange-500'}
     ]
     return(
-        <section id="skills">  
+        <section id="skills"
+        style={{
+            backgroundColor:darkMode ? "#111827" : "#f9fafb"
+        }}
+        className='py-14 relative overflow-hidden'>
+            <div className='py-14 relative overflow-hidden'>
+                <div className='container px-5 py-14 mx-auto'>
+                    <div className='text-center mb-5 py-14 mx-auto'>
+                        <h1 className='sm:text-4xl text-3xl font-bold title-font mb-4 '
+                        style={{
+                            color : darkMode ? 'wheat' : '#1f2937'
+                        }}>
+                            My  <span style={{background: 'linear-gradient(to right, #f97316,#f59e0b)',
+                                WebkitBackgroundClip: 'text',
+                                backgroundClip: 'text',
+                                color: 'transparent'
+                            }}>
+                                Skills
+                            </span>
+                        </h1>
+                            <p>
+                                I have experience working with multiple programming languages and modern web technologies, specializing in building efficient, responsive, and scalable web applications. I am passionate about learning new tools and continuously improving my skills to create user-friendly and high-quality solutions.
+                            </p>
+                    </div>
+
+                </div>
+            </div>  
         </section>
     )   
 }
