@@ -65,7 +65,19 @@ const Skills=({darkMode})=>{
                                             : 'linear-gradient(to bottom right, #ffffff, #f3f4f6)',
                                             borderColor: darkMode ? '#374151' : '#e5e7eb'
                                         }}
-                                        className={`h-full flex items-center border-gray-200 border p-4 rounded-lg bg-linear-to-r ${skill.color} bg-clip-text text-transparent`}>
+                                        className='h-full p-6 rounded-2xl border hover:border-orange-500/50 transition-all duration-300 hover:shadow-[0_0_30px_rgb(255,165,0,0.5)]'>
+                                            <div className='flex items-center mb-6'>
+                                                <div
+                                                style={{
+                                                        background : darkMode 
+                                                        ? 'linear-gradient(to bottom right, #374151, #1f2937)' 
+                                                        : 'linear-gradient(to bottom right, #f3f4f6, #e5e7eb)',
+                                                            }}>
+                                                    
+
+                                                </div>
+
+                                            </div>
 
                                         </div>
                                     
