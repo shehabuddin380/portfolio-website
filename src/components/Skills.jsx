@@ -87,7 +87,27 @@ const Skills=({darkMode})=>{
                                                     {skill.name}
                                                 </h3>
                                             </div>
-                                            <div className=''>
+                                            <div className='mb-2 flex justify-between items-center'>
+                                                <span
+                                                className='font-medium'
+                                                style={{
+                                                    color : darkMode ? '#d1d5db' : '#4b5563'
+                                                }}>
+                                                    Proficiency 
+                                                </span>
+                                                <span 
+                                                style={{
+                                                    background: 'linear-gradient(to right, #f97316, #f59e0b)',
+                                                    WebkitBackgroundClip:'text',
+                                                    backgroundClip:'text',
+                                                    color:'transparent'
+                                                }}
+                                                className='font-bold'>
+                                                    {skill.level}%  
+                                                </span>
+                                            </div>
+                                            <div
+                                            >
 
                                             </div>
 
