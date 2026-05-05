@@ -42,11 +42,16 @@ const Skills=({darkMode})=>{
                                 Skills
                             </span>
                         </h1>
-                            <p>
+                            <p className='text-lg max-w-2xl mxauto leading-relaxed'
+                            style={{
+                                color : darkMode ? '#d1d5db' : '#4b5563'
+                            }}>
                                 I have experience working with multiple programming languages and modern web technologies, specializing in building efficient, responsive, and scalable web applications. I am passionate about learning new tools and continuously improving my skills to create user-friendly and high-quality solutions.
                             </p>
                     </div>
+                            <div className='flex flex-wrap -m-4'>
 
+                            </div>
                 </div>
             </div>  
         </section>
