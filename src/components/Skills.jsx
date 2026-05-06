@@ -1,11 +1,12 @@
 import C_programming from '../assets/c-programming.png'
 import C_Plus_plus from '../assets/c++.png'
 import Python from '../assets/python.png'
-import JavaScript from '../assets/javascript.png'
+import JavaScript from '../assets/javaScripts.png'
 import Django from '../assets/django.png'
-import React from '../assets/react.png' 
+import React from '../assets/react-js.png' 
 import Figma from '../assets/figma.png'
 import tailwindcss from '../assets/tailwindcss.png'
+import vite from '../assets/vite.png'
 
 
 
@@ -19,7 +20,8 @@ const Skills=({darkMode})=>{
         {name:'Django', icon: Django, level:80, color:'from-teal-500 to-cyan-500'},
         {name:'React', icon: React, level:85, color:'from-green-500 to-emerald-500'},
         {name:'Figma', icon: Figma, level:75, color:'from-blue-500 to-indigo-500'},
-        {name:'Tailwind CSS', icon: tailwindcss, level:80, color:'from-red-500 to-orange-500'}
+        {name:'Tailwind CSS', icon: tailwindcss, level:80, color:'from-red-500 to-orange-500'},
+        {name:'Vite', icon: vite, level:70, color:'from-purple-500 to-pink-500'}
     ]
     return(
         <section id="skills"
@@ -42,7 +44,7 @@ const Skills=({darkMode})=>{
                                 Skills
                             </span>
                         </h1>
-                            <p className='text-lg max-w-2xl mxauto leading-relaxed'
+                            <p className='text-lg max-w-2xl mx-auto leading-relaxed'
                             style={{
                                 color : darkMode ? '#d1d5db' : '#4b5563'
                             }}>

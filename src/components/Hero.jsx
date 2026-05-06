@@ -92,7 +92,7 @@ const Hero = ({darkMode}) =>{
                                 <img 
                                 src={CVPhoto} 
                                 alt="Hero Image" 
-                                className='w-full h-auto object-cover transform hover:scale-105 transition-transform duration-500 '/>
+                                className='max-w-full max-h-[500px] object-cover transform hover:scale-105 transition-transform duration-500 '/>
                             </div>
                             <img 
                             src={hi}
