@@ -34,7 +34,7 @@ const Skills=({darkMode})=>{
                     <div className='text-center mb-5 py-14 mx-auto'>
                         <h1 className='sm:text-4xl text-3xl font-bold title-font mb-4 '
                         style={{
-                            color : darkMode ? 'wheat' : '#1f2937'
+                            color : darkMode ? 'white' : '#1f2937'
                         }}>
                             My  <span style={{background: 'linear-gradient(to right, #f97316,#f59e0b)',
                                 WebkitBackgroundClip: 'text',
