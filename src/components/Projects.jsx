@@ -1,7 +1,7 @@
 
 
 
-const Projects = ()=>{
+const Projects = ({darkMode}) => {
     const projects = [
         {
             id:1,
@@ -38,7 +38,26 @@ const Projects = ()=>{
             image:project1,
             tags:['Python','Django']
         },
+    ]
     return (
+        <section 
+        id='projects'
+        style={{
+            backgroundColor: darkMode ? '#111827' : '##f9fafb'
+        }}
+        className='relative py-24'>
+            <div className='container mx-auto px-4'>
+                <div className='text-center sm:text-4xl font-bold mb-3'
+                style={{
+                    color: darkMode ? 'white' : '#1f2937'
+                }}>
+                    My<span></span>
+
+                </div>
+
+            </div>
+
+        </section>
 
     )
 }
