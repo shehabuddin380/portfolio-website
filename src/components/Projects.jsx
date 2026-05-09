@@ -53,9 +53,16 @@ const Projects = ({darkMode}) => {
                     style={{
                         color: darkMode ? 'white' : '#1f2937'
                     }}>
-                </h2>
-                    My<span></span>
-
+                
+                    My<span>
+                        style={{
+                            background: 'linear-gradient(to right, #f97316, #f59e0b)',
+                            WebkitBackgroundClip: 'text',
+                            WebkitTextFillColor: 'transparent',
+                            color : 'transparent'
+                        }}
+                    </span>
+                    </h2>
                 </div>
 
             </div>
