@@ -54,15 +54,19 @@ const Projects = ({darkMode}) => {
                         color: darkMode ? 'white' : '#1f2937'
                     }}>
                 
-                    My<span>
-                        style={{
+                    My<span
+                    style={{
                             background: 'linear-gradient(to right, #f97316, #f59e0b)',
                             WebkitBackgroundClip: 'text',
                             WebkitTextFillColor: 'transparent',
                             color : 'transparent'
-                        }}
+                        }}>
+                            Projects
                     </span>
                     </h2>
+                    <p>
+                        A showcase of my recent work
+                    </p>
                 </div>
 
             </div>
