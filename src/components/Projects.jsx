@@ -64,9 +64,19 @@ const Projects = ({darkMode}) => {
                             Projects
                     </span>
                     </h2>
-                    <p>
+                    <p
+                    className='max-w-xl mx-auto'
+                    style={{
+                        color: darkMode ? '#d1d5db' : '#6b7280'
+                    }}>
                         A showcase of my recent work
                     </p>
+                </div>
+                <div
+                className='grid gap-8 sm:grid-cols-2 lg:grid-cols-3'
+                data-aos="fade-up"
+                >
+
                 </div>
 
             </div>
