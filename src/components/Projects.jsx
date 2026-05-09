@@ -47,10 +47,13 @@ const Projects = ({darkMode}) => {
         }}
         className='relative py-24'>
             <div className='container mx-auto px-4'>
-                <div className='text-center sm:text-4xl font-bold mb-3'
-                style={{
-                    color: darkMode ? 'white' : '#1f2937'
-                }}>
+                <div className='text-center sm:text-4xl font-bold mb-3'>
+                    <h2
+                    className=""
+                    style={{
+                        color: darkMode ? 'white' : '#1f2937'
+                    }}>
+                </h2>
                     My<span></span>
 
                 </div>
