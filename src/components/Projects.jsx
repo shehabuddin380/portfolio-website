@@ -1,3 +1,4 @@
+import { div } from "framer-motion/client";
 
 
 
@@ -73,9 +74,19 @@ const Projects = ({darkMode}) => {
                     </p>
                 </div>
                 <div
-                className='grid gap-8 sm:grid-cols-2 lg:grid-cols-3'
-                data-aos="fade-up"
-                >
+                className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mb-12'>
+                    {projects.map((project, index) => (
+                        <div
+                        key={project.id}
+                        style={{
+                            background: darkMode
+                            ? ''
+                            : ''
+                        }}>
+                            
+                        </div>
+
+                    ))}
 
                 </div>
 
