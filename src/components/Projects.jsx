@@ -87,8 +87,12 @@ const Projects = ({darkMode}) => {
                         className='group rounded-xl border duration-300 hover:border-orange-500/50 transition-all'
                         data-aos="fade-up"
                         data-aos-delay={index * 100}>
-                            <div>
-                                
+                            <div className='h-36 overflow-hidden rounded-t-xl'>
+                                <img 
+                                src={project.image} 
+                                alt={project.title} 
+                                className='w-full h-full object-cover group-hover:scale-110 transition-transform duration-500'/>
+
                             </div>
                             
                         </div>
