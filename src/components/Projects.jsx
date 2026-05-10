@@ -82,6 +82,7 @@ const Projects = ({darkMode}) => {
                             background: darkMode
                             ? 'linear-gradient(to right, #1f2937, #111827)'
                             : 'linear-gradient(to right, #ffffff, #f59e0b)'
+                            borderColor: darkMode ? '#374151' : 'e5e7eb'
                         }}>
                             
                         </div>
