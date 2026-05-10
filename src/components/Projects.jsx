@@ -81,9 +81,15 @@ const Projects = ({darkMode}) => {
                         style={{
                             background: darkMode
                             ? 'linear-gradient(to right, #1f2937, #111827)'
-                            : 'linear-gradient(to right, #ffffff, #f59e0b)'
-                            borderColor: darkMode ? '#374151' : 'e5e7eb'
-                        }}>
+                            : 'linear-gradient(to right, #ffffff, #f59e0b)',
+                            borderColor: darkMode ? '#374151' : '#e5e7eb'
+                        }}
+                        className='group rounded-xl border duration-300 hover:border-orange-500/50 transition-all'
+                        data-aos="fade-up"
+                        data-aos-delay={index * 100}>
+                            <div>
+                                
+                            </div>
                             
                         </div>
 
