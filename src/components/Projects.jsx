@@ -1,5 +1,5 @@
 import { div } from "framer-motion/client";
-
+import {FaGithub} from ' react-icons/fa';
 
 
 const Projects = ({darkMode}) => {
@@ -92,13 +92,53 @@ const Projects = ({darkMode}) => {
                                 src={project.image} 
                                 alt={project.title} 
                                 className='w-full h-full object-cover group-hover:scale-110 transition-transform duration-500'/>
-
                             </div>
-                            
+                            <div className='p-4'>
+                                <h3
+                                className='text-lg font-bold mb-2'
+                                style={{
+                                    color: darkMode ? 'white' : '#1f2937'
+                                }}>
+                                    {project.title}
+                                    
+                                </h3>
+                                <p 
+                                className='text-sm mb-3'
+                                style={{
+                                    color: darkMode ? '#d1d5db' : '#6b7280'
+                                }}>
+                                    {project.desc}
+                                </p>
+                                <div className='flex flex-wrap gap-1.5 mb-4'>
+                                    {project.tags.map((tag, idx) => (
+                                        <span
+                                        key={idx}
+                                        style={{
+                                            backgroundColor: darkMode ? '#374151' : '#f3f4f6',
+                                            color: darkMode ? '#d1d5db' : '#4b5563'
+                                        }}
+                                        className='px-2 py-1 text-xs rounded-full'>
+                                            {tag}
+                                        </span>
+                                    ))}
+                                </div>
+                                <div
+                                className='flex gap-3'>
+                                    <a href="#"
+                                    style={{
+                                            backgroundColor: darkMode ? '#374151' : '#f3f4f6',
+                                            color: darkMode ?  '#white' : '#374151'
+                                        }}
+                                        className='flex-1 flex items-center justify-center gap-1.5 px-3 py-2 text-sm rounded-lg hover:opacity-90 transition-colors '
+                                        data-aos="fade-up"
+                                        data-aos-delay='300'>
+                                        <FaGithub className='text-sm' />
+                                    </a>
+
+                                </div>
+                            </div>
                         </div>
-
                     ))}
-
                 </div>
 
             </div>
