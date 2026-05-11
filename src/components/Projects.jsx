@@ -133,6 +133,19 @@ const Projects = ({darkMode}) => {
                                         data-aos="fade-up"
                                         data-aos-delay='300'>
                                         <FaGithub className='text-sm' />
+                                        <span>Code</span>
+                                    </a>
+
+                                    {/* Demo*/}
+                                    <a href="#"
+                                    style={{
+                                            background: 'linear-gradient(to right,#f97316,#f59s0b)',
+                                        }}
+                                        className='flex-1 flex items-center justify-center gap-1.5 px-3 py-2 text-white text-sm rounded-lg hover:shadow-lg hover:shadow-lg hover:shadow-orange-500/25 '
+                                        data-aos="fade-up"
+                                        data-aos-delay='300'>
+                                        <FaGithub className='text-sm' />
+                                        <span>Code</span>
                                     </a>
 
                                 </div>
