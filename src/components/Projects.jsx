@@ -140,10 +140,10 @@ const Projects = ({darkMode}) => {
                                     {/* Demo*/}
                                     <a href="#"
                                     style={{
-                                            background: 'linear-gradient(to right,#f97316,#f59s0b)',
+                                            background: 'linear-gradient(to right,#f97316,#f59e0b)',
                                         }}
-                                        className='flex-1 flex items-center justify-center gap-1.5 px-3 py-2 text-white text-sm rounded-lg hover:shadow-lg hover:shadow-lg hover:shadow-orange-500/25 transition-all'
-                                        data-aos="zoom-in"
+                                        className='flex-1 flex items-center justify-center gap-1.5 px-3 py-2 text-white text-sm rounded-lg hover:shadow-lg hover:shadow-orange-500/25 transition-all'
+                                        data-aos='zoom-in'
                                         data-aos-delay='400'>
                                         <FaExternalLinkAlt className='text-sm' />
                                         <span>Demo</span>
@@ -157,9 +157,9 @@ const Projects = ({darkMode}) => {
                     className='text-center mt-10'>
                         <a href="#"
                             style={{
-                                background: 'linear-gradient(to right,#f97316,#f59s0b)',
+                                background: 'linear-gradient(to right,#f97316,#f59e0b)',
                                 }}
-                                className='linear-flex items-center font-semibold gap-2 px-7 py-4 text-white text-sm rounded-full hover:shadow-lg hover:shadow-lg hover:shadow-orange-500/25 transition-all'
+                                className='linear-flex items-center font-semibold gap-2 px-7 py-4 text-white text-sm rounded-full hover:shadow-lg hover:shadow-orange-500/25 transition-all'
                                 data-aos='zoom-in'
                                 data-aos-delay='400'>
                                 <FaGithub />
@@ -172,6 +172,6 @@ const Projects = ({darkMode}) => {
 
         </section>
 
-    )
-}
+    );
+};
 export default Projects;
