@@ -45,13 +45,13 @@ const Projects = ({darkMode}) => {
         <section 
         id='projects'
         style={{
-            backgroundColor: darkMode ? '#111827' : '##f9fafb'
+            backgroundColor: darkMode ? '#111827' : '#f9fafb'
         }}
         className='relative py-24'>
             <div className='container mx-auto px-4'>
-                <div className='text-center mb-10 data-aos="fade-up"'>
+                <div className='text-center mb-10' data-aos='fade-up'>
                     <h2
-                    className="text-3xl sm:text-4xl font-bold mb-3"
+                    className='text-3xl sm:text-4xl font-bold mb-3'
                     style={{
                         color: darkMode ? 'white' : '#1f2937'
                     }}>
@@ -60,7 +60,7 @@ const Projects = ({darkMode}) => {
                     style={{
                             background: 'linear-gradient(to right, #f97316, #f59e0b)',
                             WebkitBackgroundClip: 'text',
-                            WebkitTextFillColor: 'transparent',
+                            backgroundClip:'text',
                             color : 'transparent'
                         }}>
                             Projects
@@ -82,7 +82,7 @@ const Projects = ({darkMode}) => {
                         style={{
                             background: darkMode
                             ? 'linear-gradient(to right, #1f2937, #111827)'
-                            : 'linear-gradient(to right, #ffffff, #f59e0b)',
+                            : 'linear-gradient(to right, #ffffff, #f9fafb)',
                             borderColor: darkMode ? '#374151' : '#e5e7eb'
                         }}
                         className='group rounded-xl border duration-300 hover:border-orange-500/50 transition-all'
@@ -131,9 +131,9 @@ const Projects = ({darkMode}) => {
                                             color: darkMode ?  '#white' : '#374151'
                                         }}
                                         className='flex-1 flex items-center justify-center gap-1.5 px-3 py-2 text-sm rounded-lg hover:opacity-90 transition-colors '
-                                        data-aos="fade-up"
+                                        data-aos="zoom-in"
                                         data-aos-delay='300'>
-                                        <FaGithub className='text-sm' />
+                                        <FaGithub className='text-sm'/>
                                         <span>Code</span>
                                     </a>
 
@@ -160,12 +160,11 @@ const Projects = ({darkMode}) => {
                                 background: 'linear-gradient(to right,#f97316,#f59s0b)',
                                 }}
                                 className='linear-flex items-center font-semibold gap-2 px-7 py-4 text-white text-sm rounded-full hover:shadow-lg hover:shadow-lg hover:shadow-orange-500/25 transition-all'
-                                data-aos="zoom-in"
+                                data-aos='zoom-in'
                                 data-aos-delay='400'>
                                 <FaGithub />
                                 <span>View All Projects </span>
-                                <FaExternalLinkAlt className='text-sm' />
-                                 
+                                <FaExternalLinkAlt className='text-sm' />   
                         </a>
 
                     </div>
