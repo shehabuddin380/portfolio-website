@@ -147,13 +147,25 @@ const Projects = ({darkMode}) => {
                                         <FaExternaLinkAlt className='text-sm' />
                                         <span>Demo</span>
                                     </a>
-
                                 </div>
                             </div>
                         </div>
                     ))}
                 </div>
+                    <div
+                    className='text-center mt-10'>
+                        <a href="#"
+                            style={{
+                                background: 'linear-gradient(to right,#f97316,#f59s0b)',
+                                }}
+                                className='flex-1 flex items-center justify-center gap-1.5 px-3 py-2 text-white text-sm rounded-lg hover:shadow-lg hover:shadow-lg hover:shadow-orange-500/25 transition-all'
+                                data-aos="zoom-in"
+                                data-aos-delay='400'>
+                                <FaExternaLinkAlt className='text-sm' />
+                                <span>Demo</span>
+                        </a>
 
+                    </div>
             </div>
 
         </section>
