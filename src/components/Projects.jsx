@@ -128,7 +128,7 @@ const Projects = ({darkMode}) => {
                                     <a href="#"
                                     style={{
                                             backgroundColor: darkMode ? '#374151' : '#f3f4f6',
-                                            color: darkMode ?  '#white' : '#374151'
+                                            color: darkMode ?  'white' : '#374151'
                                         }}
                                         className='flex-1 flex items-center justify-center gap-1.5 px-3 py-2 text-sm rounded-lg hover:opacity-90 transition-colors '
                                         data-aos="zoom-in"
