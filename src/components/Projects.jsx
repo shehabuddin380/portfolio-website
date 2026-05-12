@@ -1,5 +1,6 @@
 import { div } from "framer-motion/client";
-import {FaGithub} from ' react-icons/fa';
+import {FaGithub,FaExternalLinkAlt} from "react-icons/fa";
+import project1 from '../assets/Project1.png'
 
 
 const Projects = ({darkMode}) => {
@@ -144,7 +145,7 @@ const Projects = ({darkMode}) => {
                                         className='flex-1 flex items-center justify-center gap-1.5 px-3 py-2 text-white text-sm rounded-lg hover:shadow-lg hover:shadow-lg hover:shadow-orange-500/25 transition-all'
                                         data-aos="zoom-in"
                                         data-aos-delay='400'>
-                                        <FaExternaLinkAlt className='text-sm' />
+                                        <FaExternalLinkAlt className='text-sm' />
                                         <span>Demo</span>
                                     </a>
                                 </div>
@@ -162,8 +163,8 @@ const Projects = ({darkMode}) => {
                                 data-aos="zoom-in"
                                 data-aos-delay='400'>
                                 <FaGithub />
-                                <span> </span>
-                                <FaExternaLinkAlt className='text-sm' />
+                                <span>View All Projects </span>
+                                <FaExternalLinkAlt className='text-sm' />
                                  
                         </a>
 
