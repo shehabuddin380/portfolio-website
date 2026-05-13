@@ -1,5 +1,5 @@
 import { section } from "framer-motion/client";
-
+import contact from "../assets/contact.png";
 
 const Contact = ({ darkMode }) => {
     return (
@@ -39,9 +39,9 @@ const Contact = ({ darkMode }) => {
                     <div className='flex justify-center order-2 lg:order-1'
                     data-aos="fade-right">
                         <img 
-                        src={'/contact-illustration.png'}
+                        src={contact}
                         alt='Contact '
-                        className='w-full max-w-xs sm:max-w-sm lg:max-w-md'
+                        className='w-full max-w-xs sm:max-w-sm lg:max-w-md h-auto object-contain'
                         />
 
                     </div>
