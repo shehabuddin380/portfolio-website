@@ -35,6 +35,18 @@ const Contact = ({ darkMode }) => {
                             Let's discuss your project 
                         </p>
                 </div>
+                <div className='grid grid-cols-1 lg:grid-cols-2 gap-6 sm:gap-8 md:gap-10 items-center'>
+                    <div className='flex justify-center order-2 lg:order-1'
+                    data-aos="fade-right">
+                        <img 
+                        src={'/contact-illustration.png'}
+                        alt='Contact '
+                        className='w-full max-w-xs sm:max-w-sm lg:max-w-md'
+                        />
+
+                    </div>
+
+                </div>
             </div>
             
         </section>
