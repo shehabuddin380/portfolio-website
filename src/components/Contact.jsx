@@ -17,11 +17,23 @@ const Contact = ({ darkMode }) => {
                         color: darkMode ? 'white' : '#1f2937'
                     }}>
                         Get In 
-                        <span> 
+                        <span 
+                        style={{
+                            background: 'linear-gradient(to right, #f97316, #f59e0b)',
+                            WebkitBackgroundClip: 'text',
+                            backgroundClip:'text',
+                            color: 'transparent'
+                        }}> 
                             Touch
                         </span> 
                     </h2>
-
+                        <p 
+                        className='text-base sm:text-lg md:text-lg md:text-xl'
+                        style={{
+                            color: darkMode ? '#d1d5db' : '#6b7280'
+                        }}>
+                            Let's discuss your project 
+                        </p>
                 </div>
             </div>
             
