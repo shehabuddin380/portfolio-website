@@ -52,6 +52,7 @@ const Contact = ({ darkMode }) => {
                     className='rounded-xl p-4 sm:p-5 md:p-6 lg:p-8 border shadow-lg order-1 lg:order-2'
                     data-aos="fade-left">
                         <div className='grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-4 mb-4 sm:mb-4'>
+                            {/* First Name */}
                             <input type="text"
                             placeholder='First Name'
                             style={{
@@ -59,7 +60,18 @@ const Contact = ({ darkMode }) => {
                                 borderColor: darkMode ? '#4b5563' : '#d1d5db',
                                 color: darkMode ? 'white' : '#1f2937'
                             }}
-                            />
+                            className='w-full px-3 sm:px-4 py-2 sm:py-3 rounded-lg text-sm sm:text-base focus:border-orange-500 focus:ring-2 focus:ring-orange-500/20 transition-all'
+                            required/>
+                            {/* Last Name */}
+                            <input type="text"
+                            placeholder='Last Name'
+                            style={{
+                                background: darkMode ? '#374151' : '#faede3',
+                                borderColor: darkMode ? '#4b5563' : '#d1d5db',
+                                color: darkMode ? 'white' : '#1f2937'
+                            }}
+                            className='w-full px-3 sm:px-4 py-2 sm:py-3 rounded-lg text-sm sm:text-base focus:border-orange-500 focus:ring-2 focus:ring-orange-500/20 transition-all'
+                            required/>
 
                         </div>
                         
