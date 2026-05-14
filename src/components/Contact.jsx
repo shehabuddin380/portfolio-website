@@ -43,8 +43,16 @@ const Contact = ({ darkMode }) => {
                         alt='Contact '
                         className='w-full max-w-xs sm:max-w-sm lg:max-w-md h-auto object-contain'
                         />
-
                     </div>
+                    <form 
+                    style={{
+                        background: darkMode ? 'linear-gradient(to right, #1f2937, #111827)' : 'linear-gradient(to right, #ffffff, #f9fafb)',
+                        borderColor: darkMode ? '#374151' : '#e5e7eb'
+                    }}
+                    className='rounded-xl p-4 sm:p-5 md:p-6 lg:p-8 border shadow-lg order-1 lg:order-2'
+                    data-aos="fade-left">
+                        
+                    </form>
 
                 </div>
             </div>
