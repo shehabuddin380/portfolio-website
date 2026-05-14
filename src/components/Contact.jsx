@@ -51,6 +51,17 @@ const Contact = ({ darkMode }) => {
                     }}
                     className='rounded-xl p-4 sm:p-5 md:p-6 lg:p-8 border shadow-lg order-1 lg:order-2'
                     data-aos="fade-left">
+                        <div className='grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-4 mb-4 sm:mb-4'>
+                            <input type="text"
+                            placeholder='First Name'
+                            style={{
+                                background: darkMode ? '#374151' : '#faede3',
+                                borderColor: darkMode ? '#4b5563' : '#d1d5db',
+                                color: darkMode ? 'white' : '#1f2937'
+                            }}
+                            />
+
+                        </div>
                         
                     </form>
 
