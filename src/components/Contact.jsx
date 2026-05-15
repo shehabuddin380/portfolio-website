@@ -73,6 +73,17 @@ const Contact = ({ darkMode }) => {
                             className='w-full px-3 sm:px-4 py-2 sm:py-3 rounded-lg text-sm sm:text-base focus:border-orange-500 focus:ring-2 focus:ring-orange-500/20 transition-all'
                             required/>
 
+                            {/* Email */}
+                            <input type="email"
+                            placeholder='Email Address'
+                            style={{
+                                background: darkMode ? '#374151' : '#faede3',
+                                borderColor: darkMode ? '#4b5563' : '#d1d5db',
+                                color: darkMode ? 'white' : '#1f2937'
+                            }}
+                            className='w-full px-3 sm:px-4 py-2 sm:py-3 rounded-lg text-sm sm:text-base focus:border-orange-500 focus:ring-2 focus:ring-orange-500/20 transition-all'
+                            required/>
+
                         </div>
                         
                     </form>
