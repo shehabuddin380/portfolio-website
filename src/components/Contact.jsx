@@ -8,7 +8,7 @@ const Contact = ({ darkMode }) => {
         style={{
             backgroundColor:darkMode ? '#111827' : '#f9fafb'
         }}
-        className='py-12 sm:py-20 lg:py-24 overflow-hidden'>
+        className='py-12 sm:py-16 mb:py-20 lg:py-24  overflow-hidden'>
             <div className='container mx-auto px-4 sm:px-6 lg:px-8'>
                 <div className='text-center mb-8 sm:mb-10 md:mb-12'
                 data-aos="fade-up">
@@ -56,7 +56,7 @@ const Contact = ({ darkMode }) => {
                             <input type="text"
                             placeholder='First Name'
                             style={{
-                                background: darkMode ? '#374151' : '#faede3',
+                                backgroundColor: darkMode ? '#374151' : '#faede3',
                                 borderColor: darkMode ? '#4b5563' : '#d1d5db',
                                 color: darkMode ? 'white' : '#1f2937'
                             }}
@@ -66,7 +66,7 @@ const Contact = ({ darkMode }) => {
                             <input type="text"
                             placeholder='Last Name'
                             style={{
-                                background: darkMode ? '#374151' : '#faede3',
+                                backgroundColor: darkMode ? '#374151' : '#faede3',
                                 borderColor: darkMode ? '#4b5563' : '#d1d5db',
                                 color: darkMode ? 'white' : '#1f2937'
                             }}
@@ -77,7 +77,7 @@ const Contact = ({ darkMode }) => {
                             <input type="email"
                             placeholder='Email Address'
                             style={{
-                                background: darkMode ? '#374151' : '#faede3',
+                                backgroundColor: darkMode ? '#374151' : '#faede3',
                                 borderColor: darkMode ? '#4b5563' : '#d1d5db',
                                 color: darkMode ? 'white' : '#1f2937'
                             }}
@@ -87,7 +87,7 @@ const Contact = ({ darkMode }) => {
                             <input type="text"
                             placeholder='Phone Number'
                             style={{
-                                background: darkMode ? '#374151' : '#faede3',
+                                backgroundColor: darkMode ? '#374151' : '#faede3',
                                 borderColor: darkMode ? '#4b5563' : '#d1d5db',
                                 color: darkMode ? 'white' : '#1f2937'
                             }}
@@ -99,7 +99,7 @@ const Contact = ({ darkMode }) => {
                             rows='4'
                             placeholder='Your Message'
                             style={{
-                                background: darkMode ? '#374151' : '#faede3',
+                                backgroundColor: darkMode ? '#374151' : '#faede3',
                                 borderColor: darkMode ? '#4b5563' : '#d1d5db',
                                 color: darkMode ? 'white' : '#1f2937'
                             }}
