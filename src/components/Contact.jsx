@@ -103,9 +103,11 @@ const Contact = ({ darkMode }) => {
                                 borderColor: darkMode ? '#4b5563' : '#d1d5db',
                                 color: darkMode ? 'white' : '#1f2937'
                             }}
-                            className='w-full px-3 sm:px-4 py-2 sm:py-3 rounded-lg text-sm sm:text-base focus:border-orange-500 focus:ring-2 focus:ring-orange-500/20 transition-all mb-3 sm:mb-4'
-                            rows='4'
+                            className='w-full px-3 sm:px-4 py-2 sm:py-3 rounded-lg text-sm sm:text-base focus:border-orange-500 focus:ring-2 focus:ring-orange-500/20 transition-all mb-4 sm:mb-6 resize-none'
                             required/>
+                            <button>
+                                type='submit'
+                            </button>
                         </div>
                         
                     </form>
