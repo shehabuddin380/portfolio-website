@@ -121,6 +121,6 @@ const Contact = ({ darkMode }) => {
             </div>
             
         </section>
-    )
-}
+    );
+};
 export default Contact;
