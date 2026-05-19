@@ -9,8 +9,26 @@ const Footer = ({ darkMode }) => {
             ? "linear-linear(to bottom, #000000, #111827)"
             : "linear-linear(to bottom, #f9f4f6, #e5e7eb)",
             borderColor: darkMode ? "#374151" : "#d1d5db",
-        }}>
+        }}
+        className="border-t">
+            <div className="container mx-auto py-4 py-8">
+                <div className='flex flex-col md:flex-row justify-between items-center gap-6'>
+                    <div className='text-center md:text-left'>
+                        <h3 className='text-2xl font-bold mb-2'
+                        style={{
+                            color: darkMode ? "#f9f4f6" : "#111827",
+                        }}>
+                            &copy; {currentYear} My Portfolio. All rights reserved.
+
+                        </h3>
+
+                    </div>
+
+                </div>
+
+            </div>
         </footer>
+
     )
 
 }
