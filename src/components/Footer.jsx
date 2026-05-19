@@ -16,9 +16,12 @@ const Footer = ({ darkMode }) => {
                     <div className='text-center md:text-left'>
                         <h3 className='text-2xl font-bold mb-2'
                         style={{
-                            color: darkMode ? "#f9f4f6" : "#111827",
+                            background: 'linear-gradient(to right, #f97316, #f59e0b)',
+                            WebkitBackgroundClip: 'text',
+                            backgroundClip: 'text',
+                            color: 'transparent',
                         }}>
-                            &copy; {currentYear} My Portfolio. All rights reserved.
+                            
 
                         </h3>
 
