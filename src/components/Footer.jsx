@@ -21,9 +21,11 @@ const Footer = ({ darkMode }) => {
                             backgroundClip: 'text',
                             color: 'transparent',
                         }}>
-                            
-
+                            Portfolio
                         </h3>
+                        <p>
+                            
+                        </p>
 
                     </div>
 
