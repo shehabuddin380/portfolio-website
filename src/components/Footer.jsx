@@ -23,7 +23,10 @@ const Footer = ({ darkMode }) => {
                         }}>
                             Portfolio
                         </h3>
-                        <p>
+                        <p className='text-sm'
+                        style={{
+                            color: darkMode ? '#9ca3af' : '#6b7280'
+                        }}>
                             
                         </p>
 
