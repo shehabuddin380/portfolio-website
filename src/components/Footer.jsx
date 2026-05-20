@@ -14,13 +14,7 @@ const Footer = ({ darkMode }) => {
             <div className="container mx-auto py-4 py-8">
                 <div className='flex flex-col md:flex-row justify-between items-center gap-6'>
                     <div className='text-center md:text-left'>
-                        <h3 className='text-2xl font-bold mb-2'
-                        style={{
-                            background: 'linear-gradient(to right, #f97316, #f59e0b)',
-                            WebkitBackgroundClip: 'text',
-                            backgroundClip: 'text',
-                            color: 'transparent',
-                        }}>
+                        <h3 className='text-2xl font-bold mb-2 text-orange-500 dark:text-white'>
                             Portfolio
                         </h3>
                         <p className='text-sm'
