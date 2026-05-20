@@ -27,7 +27,7 @@ const Footer = ({ darkMode }) => {
                         style={{
                             color: darkMode ? '#9ca3af' : '#6b7280'
                         }}>
-                            
+                            Backend Developer & UI/Ux Designer.
                         </p>
 
                     </div>
