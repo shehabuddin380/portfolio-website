@@ -23,9 +23,13 @@ const Footer = ({ darkMode }) => {
                         }}>
                             Backend Developer & UI/Ux Designer.
                         </p>
+                    </div>
+                    <div className='flex gap-4'>
+                        <a
+                        href='#'
+                        className='w-10 h-10 rounded-full flex items-center justify-center hover:scale-110 transition-all hover:bg-linear-to-r hover:from-orange-500 hover:to-amber-500 hover:text-white bg-[#374151] dark:bg-[#f3f4f6] text-white'></a>
 
                     </div>
-
                 </div>
 
             </div>
