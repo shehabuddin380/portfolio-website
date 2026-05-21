@@ -1,5 +1,6 @@
 import instagram from '../assets/instagram.png'
 import linkedin from '../assets/linkedin.png'
+import facebook from '../assets/Facebook.png'
 import github from '../assets/github.png'
 import CV from '../assets/CV.pdf'
 import CVPhoto from '../assets/CVPhoto.png'
@@ -12,6 +13,7 @@ const Hero = ({darkMode}) =>{
     const socialIcons = [
         { icon: instagram, alt: 'Instagram' },
         { icon: linkedin, alt: 'LinkedIn' },
+        { icon: facebook, alt: 'Facebook '},
         { icon: github, alt: 'GitHub' },
     ];
     const darkTheme={
