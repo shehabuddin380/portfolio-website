@@ -4,6 +4,7 @@ import facebook from '../assets/Facebook.png'
 import github from '../assets/github.png'
 import CV from '../assets/CV.pdf'
 import CVPhoto from '../assets/CVPhoto.png'
+import Twitter from '../assets/Twitter.png'
 import hi from '../assets/hi.png'
 import { DownloadIcon, Mail } from "lucide-react";
 
@@ -15,6 +16,7 @@ const Hero = ({darkMode}) =>{
         { icon: linkedin, alt: 'LinkedIn' },
         { icon: facebook, alt: 'Facebook '},
         { icon: github, alt: 'GitHub' },
+        { icon: Twitter, alt: 'Twitter' },
     ];
     const darkTheme={
         textPrimary:'text-white',
