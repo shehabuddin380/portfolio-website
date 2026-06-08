@@ -95,25 +95,31 @@ const Contact = ({ darkMode }) => {
                             required/>
 
                             {/* Message */}
-                            <textarea 
-                            rows='4'
-                            placeholder='Your Message'
-                            style={{
-                                backgroundColor: darkMode ? '#374151' : '#faede3',
-                                borderColor: darkMode ? '#4b5563' : '#d1d5db',
-                                color: darkMode ? 'white' : '#1f2937'
-                            }}
-                            className='w-full px-3 sm:px-4 py-2 sm:py-3 rounded-lg text-sm sm:text-base focus:border-orange-500 focus:ring-2 focus:ring-orange-500/20 transition-all mb-4 sm:mb-6 resize-none'
-                            required/>
+                            <div className="sm:col-span-2">
+                                <textarea
+                                    rows="4"
+                                    placeholder="Your Message"
+                                    style={{
+                                    backgroundColor: darkMode ? '#374151' : '#faede3',
+                                    borderColor: darkMode ? '#4b5563' : '#d1d5db',
+                                    color: darkMode ? 'white' : '#1f2937'
+                                    }}
+                                    className="w-full px-3 sm:px-4 py-3 rounded-lg text-sm sm:text-base focus:border-orange-500 focus:ring-2 focus:ring-orange-500/20 transition-all resize-none"
+                                    required
+                                />
+                                </div>
 
-                            <button
-                            type='submit' 
-                            style={{
-                                background: 'linear-gradient(to right, #f97316, #f59e0b)',
-                            }}
-                            className='w-full py-2 px-3 sm:py-2 text-white font-semibold rounded-lg text-sm sm:text-base hover:shadow-lg hover:shadow-orange-500/25 hover:scale-[1.02] transition-all'>
-                                Send Message
-                            </button>
+                                <div className="sm:col-span-2">
+                                <button
+                                    type="submit"
+                                    style={{
+                                    background: 'linear-gradient(to right, #f97316, #f59e0b)',
+                                    }}
+                                    className="w-full py-3 text-white font-semibold rounded-lg text-sm sm:text-base hover:shadow-lg hover:shadow-orange-500/25 hover:scale-[1.02] transition-all"
+                                >
+                                    Send Message
+                                </button>
+                                </div>
                         </div>
                         
                     </form>
