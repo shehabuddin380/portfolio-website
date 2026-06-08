@@ -1,7 +1,6 @@
-import { div } from "framer-motion/client";
 import {FaGithub,FaExternalLinkAlt} from "react-icons/fa";
-import project1 from '../assets/Project1.png'
-
+import project1 from '../assets/project1.png'
+import project2 from '../assets/project2.png'
 
 const Projects = ({darkMode}) => {
     const projects = [
@@ -16,7 +15,7 @@ const Projects = ({darkMode}) => {
             id:2,
             title:'PhiMart Client',
             description:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-            image:project1,
+            image:project2,
             tags:['React', 'JavaScript']
         },
         {
