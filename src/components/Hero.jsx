@@ -12,11 +12,11 @@ import { DownloadIcon, Mail } from "lucide-react";
 
 const Hero = ({darkMode}) =>{
     const socialIcons = [
-        { icon: instagram, alt: 'Instagram' },
-        { icon: linkedin, alt: 'LinkedIn' },
-        { icon: facebook, alt: 'Facebook '},
-        { icon: github, alt: 'GitHub' },
-        { icon: Twitter, alt: 'Twitter' },
+        { icon: instagram, alt: 'Instagram', link: 'https://www.instagram.com/shehabuddin380/' },
+        { icon: linkedin, alt: 'LinkedIn', link: 'https://www.linkedin.com/in/shehabuddin380/' },
+        { icon: facebook, alt: 'Facebook ', link: 'https://www.facebook.com/shehabuddin380/' },
+        { icon: github, alt: 'GitHub', link: 'https://github.com/shehabuddin380?tab=overview&from=2026-03-01&to=2026-03-31' },
+        { icon: Twitter, alt: 'Twitter', link:'#'},
     ];
     const darkTheme={
         textPrimary:'text-white',
@@ -47,12 +47,14 @@ const Hero = ({darkMode}) =>{
                         {socialIcons.map((social, index) => (
                             <a 
                             key={index}
-                            href="#" 
+                            href={social.link}
+                            target="_blank"
+                            rel="noopener noreferrer"
                             data-aos-delay={`${400 + index * 100}`}
                             className='transform hover:scale-110 transition-transform duration-300'
                             >
                                 <img src={social.icon} 
-                                alt={social.name}
+                                alt={social.alt}
                                 className={`w-8 h-8 sm:w-10 sm:h-10 object-contain ${darkMode ? '' : 'filter brightness-75'}`} />
                             </a>
                         ))}
