@@ -1,5 +1,5 @@
 
-import { FaGithub, FaLinkedin,FaTwitter,FaFacebook } from "react-icons/fa";
+import { FaGithub, FaLinkedin,FaTwitter,FaFacebook, FaInstagram } from "react-icons/fa";
 
 const Footer = ({ darkMode }) => {
     const currentYear = new Date().getFullYear();
@@ -29,26 +29,37 @@ const Footer = ({ darkMode }) => {
                         {/* FaGithub */}
                         <a
                         href='#'
+                        link='https://github.com/shehabuddin380'
                         className='w-10 h-10 rounded-full flex items-center justify-center hover:scale-110 transition-all hover:bg-linear-to-r hover:from-orange-500 hover:to-amber-500 hover:text-white bg-[#374151] dark:bg-[#f3f4f6] text-white dark:text-[#374151]'>
                             <FaGithub />
                         </a>
                         {/* FaLinkedin */}
                         <a
                         href='#'
+                        link='https://www.linkedin.com/in/shehabuddin380/'
                         className='w-10 h-10 rounded-full flex items-center justify-center hover:scale-110 transition-all hover:bg-linear-to-r hover:from-orange-500 hover:to-amber-500 hover:text-white bg-[#374151] dark:bg-[#f3f4f6] text-white dark:text-[#374151]'>
                             <FaLinkedin />
                         </a>
                         {/* FaTwitter */}
                         <a
                         href='#'
+                        link='https://x.com/shehabuddin380'
                         className='w-10 h-10 rounded-full flex items-center justify-center hover:scale-110 transition-all hover:bg-linear-to-r hover:from-orange-500 hover:to-amber-500 hover:text-white bg-[#374151] dark:bg-[#f3f4f6] text-white dark:text-[#374151]'>
                             <FaTwitter />
                         </a>
                         {/* FaFacebook */}
                         <a
                         href='#'
+                        link='https://www.facebook.com/shehabuddin380/'
                         className='w-10 h-10 rounded-full flex items-center justify-center hover:scale-110 transition-all hover:bg-linear-to-r hover:from-orange-500 hover:to-amber-500 hover:text-white bg-[#374151] dark:bg-[#f3f4f6] text-white dark:text-[#374151]'>
                             <FaFacebook />
+                        </a>
+                        {/* FaInstagram */}
+                        <a
+                        href='#'
+                        link='https://www.instagram.com/shehabuddin380/'
+                        className='w-10 h-10 rounded-full flex items-center justify-center hover:scale-110 transition-all hover:bg-linear-to-r hover:from-orange-500 hover:to-amber-500 hover:text-white bg-[#374151] dark:bg-[#f3f4f6] text-white dark:text-[#374151]'>
+                            <FaInstagram />
                         </a>
                     </div>
                 </div>
