@@ -24,7 +24,7 @@ const Contact = ({ darkMode }) => {
         emailjs
             .send(
                 "service_07zq0se",
-                "YOUR_TEMPLATE_ID",
+                "template_gxb6khd",
                 {
                     first_name: formData.firstName,
                     last_name: formData.lastName,
@@ -32,7 +32,7 @@ const Contact = ({ darkMode }) => {
                     phone: formData.phone,
                     message: formData.message,
                 },
-                "YOUR_PUBLIC_KEY"
+                "6jtAfOwAy-hnj5QEZ"
             )
             .then(() => {
                 alert("Message Sent Successfully!");
