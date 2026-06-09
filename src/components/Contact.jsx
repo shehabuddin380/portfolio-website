@@ -23,13 +23,13 @@ const Contact = ({ darkMode }) => {
 
         emailjs
             .send(
-                "service_07zq0se",
+                "service_x7c1w3l",
                 "template_gxb6khd",
                 {
                     first_name: formData.firstName,
                     last_name: formData.lastName,
-                    email: formData.email,
-                    phone: formData.phone,
+                    user_email: formData.email,
+                    phone_number: formData.phone,
                     message: formData.message,
                 },
                 "6jtAfOwAy-hnj5QEZ"
