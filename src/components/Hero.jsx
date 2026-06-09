@@ -16,7 +16,7 @@ const Hero = ({darkMode}) =>{
         { icon: linkedin, alt: 'LinkedIn', link: 'https://www.linkedin.com/in/shehabuddin380/' },
         { icon: facebook, alt: 'Facebook ', link: 'https://www.facebook.com/shehabuddin380/' },
         { icon: github, alt: 'GitHub', link: 'https://github.com/shehabuddin380?tab=overview&from=2026-03-01&to=2026-03-31' },
-        { icon: Twitter, alt: 'Twitter', link: 'https://twitter.com/shehabuddin' },
+        { icon: Twitter, alt: 'Twitter', link: 'https://x.com/shehabuddin380' },
     ];
     const darkTheme={
         textPrimary:'text-white',
